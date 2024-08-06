@@ -1,0 +1,97 @@
+/* Reset default styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Styling untuk navigasi */
+nav {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column; /* Menyusun item vertikal */
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.logo a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    display: block;
+    margin-bottom: 10px; /* Jarak antara logo dan menu */
+}
+
+.menu {
+    width: 100%;
+    text-align: center;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.menu ul li {
+    margin: 0 15px;
+}
+
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Styling untuk ikon sosial media */
+.social-media {
+    background-color: #333; /* Menyesuaikan latar belakang agar sesuai dengan navigasi */
+    padding: 10px 0;
+    text-align: center;
+}
+
+.social-icon {
+    color: white;
+    font-size: 24px;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.social-icon:hover {
+    opacity: 0.8;
+}
+
+/* Styling untuk gambar utama dan QR Code */
+.kolom {
+    text-align: center;
+}
+
+.main-image {
+    width: 100%;
+    height: auto;
+    max-width: 800px; /* Atur sesuai dengan ukuran gambar utama */
+    margin-bottom: 20px; /* Jarak antara gambar utama dan QR code */
+}
+
+.qr-code {
+    width: 150px; /* Ukuran QR code */
+    height: auto;
+    display: inline-block;
+    margin-top: 10px; /* Jarak di atas QR code agar tidak terlalu dekat dengan gambar */
+}

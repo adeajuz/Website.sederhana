@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'Elephant';
+    src: url('path/to/elephant-font.woff2') format('woff2'), /* Ganti dengan path ke file font Anda */
+         url('path/to/elephant-font.woff') format('woff');
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    font-family: 'Elephant', sans-serif;
+  }
+  
+  td {
+    font-size: 25px; 
+    font-family: 'Elephant', sans-serif;
+  }
+  
